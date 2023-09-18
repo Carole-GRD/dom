@@ -22,9 +22,9 @@ console.log('head => title : ', document.title);
 
 document.body.style.backgroundColor = "#FF69B4";
 
-let n1 = Math.ceil(Math.random() * 255);
-let n2 = Math.ceil(Math.random() * 255);
-let n3 = Math.ceil(Math.random() * 255);
+let n1 = Math.round(Math.random() * 255);
+let n2 = Math.round(Math.random() * 255);
+let n3 = Math.round(Math.random() * 255);
 
 document.body.style.backgroundColor = `rgb(${n1}, ${n2}, ${n3})`;
 
